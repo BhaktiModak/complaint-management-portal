@@ -1,0 +1,25 @@
+.complaint-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.complaint-form input,
+.complaint-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.complaint-form button {
+    padding: 10px 15px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

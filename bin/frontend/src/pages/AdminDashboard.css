@@ -1,0 +1,102 @@
+.admin-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  color: white;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-header h2 {
+  letter-spacing: 1px;
+}
+
+.logout-btn {
+  background: #dc2626;
+  border: none;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #b91c1c;
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.admin-card {
+  background: #020617;
+  padding: 18px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  position: relative;
+}
+
+.admin-card h4 {
+  margin-bottom: 6px;
+}
+
+.admin-card p {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.status {
+  display: inline-block;
+  margin: 8px 0 12px;
+  padding: 5px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status.pending { background: #facc15; color: black; }
+.status.resolved { background: #22c55e; color: black; }
+.status.rejected { background: #ef4444; color: white; }
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resolve {
+  background: #22c55e;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: black;
+}
+
+.reject {
+  background: #ef4444;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+details {
+  cursor: pointer;
+}
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}

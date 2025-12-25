@@ -1,0 +1,53 @@
+/* ===== Admin Navbar ===== */
+
+.admin-navbar {
+    background: linear-gradient(90deg, #020617, #0f172a);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 40px;
+    color: white;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.45);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .admin-navbar .navbar-logo h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .admin-navbar .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 22px;
+  }
+  
+  .admin-navbar .navbar-links a,
+  .admin-navbar .logout-btn {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 14px;
+    border-radius: 6px;
+    transition: 0.25s ease;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .admin-navbar .navbar-links a:hover,
+  .admin-navbar .logout-btn:hover {
+    background: rgba(255,255,255,0.12);
+  }
+  
+  .admin-navbar .logout-btn {
+    background: #dc2626;
+    color: white;
+  }
+  
+  .admin-navbar .logout-btn:hover {
+    background: #b91c1c;
+  }
+  
